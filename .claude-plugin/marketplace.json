@@ -1,5 +1,6 @@
 {
-  "name": "claude-plugins",
+  "name": "yuyu1815-plugins",
+  "description": "yuyu1815 の Claude Code プラグイン集",
   "owner": { "name": "yuyu1815" },
   "plugins": [
     { "name": "prismantis-mermaid", "source": "./plugins/prismantis-mermaid", "description": "prismantis 0.6.0 (b13de6c) の mermaid 描画だけを残した fork" }

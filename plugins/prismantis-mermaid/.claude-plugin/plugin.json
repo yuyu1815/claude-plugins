@@ -3,6 +3,7 @@
   "version": "0.6.0-mermaid.2",
   "description": "prismantis 0.6.0 (NahumLitvin/prismantis@b13de6c) の fork。```mermaid だけを図にする。flowchart/sequence/class/state/er は grok-mermaid 0.2.3、xychart は beautiful-mermaid で描き、それ以外は Claude Code 標準の描画に任せる。",
   "license": "MIT",
+  "author": { "name": "yuyu1815" },
   "userConfig": {
     "theme": {
       "type": "string",

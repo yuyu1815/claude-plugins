@@ -10,7 +10,7 @@ yuyu1815 の Claude Code プラグイン集（marketplace）。
 
 ```
 /plugin marketplace add yuyu1815/claude-plugins
-/plugin install prismantis-mermaid@claude-plugins
+/plugin install prismantis-mermaid@yuyu1815-plugins
 ```
 
 インストール後、Claude Code を再起動（または `/reload-plugins`）。
@@ -37,9 +37,9 @@ flowchart LR
 ### 更新・削除
 
 ```
-/plugin marketplace update claude-plugins
-/plugin uninstall prismantis-mermaid@claude-plugins
-/plugin marketplace remove claude-plugins
+/plugin marketplace update yuyu1815-plugins
+/plugin uninstall prismantis-mermaid@yuyu1815-plugins
+/plugin marketplace remove yuyu1815-plugins
 ```
 
 ## 描画対象
