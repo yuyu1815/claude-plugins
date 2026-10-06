@@ -1,0 +1,26 @@
+{
+  "name": "prismantis-mermaid",
+  "version": "0.6.0-mermaid.2",
+  "description": "prismantis 0.6.0 (NahumLitvin/prismantis@b13de6c) の fork。```mermaid だけを図にする。flowchart/sequence/class/state/er は grok-mermaid 0.2.3、xychart は beautiful-mermaid で描き、それ以外は Claude Code 標準の描画に任せる。",
+  "license": "MIT",
+  "userConfig": {
+    "theme": {
+      "type": "string",
+      "title": "Theme",
+      "description": "図の配色。prismantis のプリセット名。",
+      "default": "catppuccin-mocha"
+    },
+    "mermaidAscii": {
+      "type": "boolean",
+      "title": "Mermaid ASCII only",
+      "description": "罫線文字の代わりに + - | > で描く。",
+      "default": false
+    },
+    "diagramHints": {
+      "type": "boolean",
+      "title": "Diagram hints",
+      "description": "プロンプトごとに mermaid が描画されることをモデルに伝える短い context を付ける。",
+      "default": true
+    }
+  }
+}
